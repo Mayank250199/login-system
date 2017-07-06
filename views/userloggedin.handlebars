@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Arena | Dashboard</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="/assets/userstyle.css" rel="stylesheet">
+    <script src="https://cdn.ckeditor.com/4.7.0/standard/ckeditor.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+
+   </head>
+
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">FinalPrep <span class="glyphicon glyphicon-king" aria-hidden="true"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="posts"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Posts</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Welcome,{{name}}</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Logout</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <header id="header">
+      <div class="container">
+         <div class="row">
+           <div class="col-md-10">
+            <h1><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Dashboard <small>Grab Your notes</small></h1>
+           </div>
+
+           </div>
+         </div>
+      </div>
+    </header>
+
+    <section id="breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li class="active">Dashboard</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="main">
+    <div class="container">
+
+        <div class="col-md-12">
+        <!-- website overview-->
+
+          <div class="panel panel-default">
+              <div class="panel-heading main-color-bg">
+                <h3 class="panel-title">Notes Overview</h3>
+              </div>
+              <div class="panel-body">
+                <div class="col-md-3">
+                  <div class="well dash-box">
+                    <h2><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> 203</h2>
+                    <h4>B.tech sem 1</h4>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="well dash-box">
+                    <h2><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> 12</h2>
+                    <h4>B.tech sem 2</h4>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="well dash-box">
+                    <h2><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> 33</h2>
+                    <h4>B.tech sem 4</h4>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="well dash-box">
+                    <h2><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> 2,103</h2>
+                    <h4>B.tech sem 4</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--latest users-->
+            <div class="panel panel-default">
+                <div class="panel-heading">Latest Notes</h3>
+                </div>
+                <div class="panel-body">
+                <div class="col-md-12">
+                  <div class="dropdown create">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Select semester
+                 <span class="caret"></span>
+                  </button>
+                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                 <li><a type="button" data-toggle="modal" data-target="#">B.tech Semester 1</a></li>
+                 <li><a type="button" data-toggle="modal" data-target="#">B.tech Semester 2</a></li>
+                 <li><a type="button" data-toggle="modal" data-target="#">B.tech Semester 3</a></li>
+                 <li><a type="button" data-toggle="modal" data-target="#">B.tech Semester 4(Comming Soon)</a></li>
+                 </ul>
+              </div><br>
+                </div>
+                  <table class="table table-striped table-hover">
+                    <tr>
+                      <th>Name</th>
+                      <th>Subject</th>
+                      <th>Semester</th>
+                      <th>uploaded on</th>
+                      <th></th>
+                    </tr>
+                    <tr>
+                      <td>Name</td>
+                      <td>Subject</td>
+                      <td>1</td>
+                      <td>uploaded on</td>
+                       <td><a class="btn btn-primary" href="#">Download</a></td>
+                    </tr>
+                    <tr>
+                     <td>Name</td>
+                      <td>Subject</td>
+                      <td>1</td>
+                      <td>uploaded on</td>
+                       <td><a class="btn btn-primary" href="#">Download</a></td>
+                    </tr>
+                    <tr>
+                      <td>Name</td>
+                      <td>Subject</td>
+                      <td>1</td>
+                      <td>uploaded on</td>
+                       <td><a class="btn btn-primary" href="#">Download</a></td>
+                    </tr>
+                    <tr>
+                      <td>Name</td>
+                      <td>Subject</td>
+                      <td>1</td>
+                      <td>uploaded on</td>
+                       <td><a class="btn btn-primary" href="#">Download</a></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+    <footer id="footer">
+              <p>Copyright FINALPREP &copy; 2017</p>
+          </footer>
+
+
+
+
+ <script>
+            CKEDITOR.replace( 'editor1' );
+        </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,191 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Ariel, "Helvetica neue", Helavatica, sans-serif;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.login-box{
+    width: 500px;
+    background-color: rgba(10,10,10,0.6);
+    margin : 100px auto;
+    margin-top: 50px;
+    margin-bottom:  0px;
+    border-radius: 10px;
+   box-shadow: 0 0 10px 5px #000;
+  
+}
+.info{
+       width: 500px;
+       padding: 10px 0px 0px 10px;;
+       font-size: 30px;
+       color: #fff;
+      text-align: center;
+       text-shadow: 1px 1px 1px #000;
+
+      }
+      .form-box{
+       padding: 25px;
+      }
+    .inp{
+     width: 100%;
+     padding: 12px;
+     margin-bottom: 3px;
+     border: none;
+     border-radius: 5px;
+     font-size: 20px;
+     border-bottom: 2px solid #000;
+     color: #dc143c;
+    }
+
+    .inp:focus{
+                outline: none;
+                border-bottom: 2px solid #dc143c;
+                color: #dc143c;
+    }
+    .sub-btn{
+         padding: 12px;
+         width: 100%;
+         border-radius: 5px;
+         background: linear-gradient(#00bfff,navy);
+         border: 0;
+         box-sizing: border-box;
+         color: #fff;
+         cursor: pointer;
+         font-size: 20px;
+         border-bottom: 2px solid #000;
+         text-shadow: 1px 1px 1px #000;
+
+}
+    .sub-btn:hover{
+          background: linear-gradient(#dc143c,#8b0000);
+    }
+    .sub-btn:focus{
+          outline: none;
+    }
+    .rem{
+     margin-bottom: 10px;
+     margin-top: 10px;
+     width: 20px;
+     height: 20px;
+   }
+
+    .f-pass{
+          float: right;
+          margin-top: 12px;
+          color: #fff;
+          text-shadow: 1px 1px 1px #000;
+    }
+    .account{
+           margin-top: 10px;
+           text-align: center;
+           color: #fff;
+           font-size: 25px;
+           text-shadow: 0 2px 1px #000
+    }
+    .reg{
+          display: block;
+          width: 100%;
+          padding: 12px;
+          text-align: center;
+          text-decoration: none;
+          background: linear-gradient(#dc143c,#8b0000);
+          color: #fff;
+          border-radius: 5px;
+          border-bottom: 2px solid #000;
+          font-size: 20px;
+          text-shadow: 1px 1px 1px #000;
+
+    }
+    .reg:hover{
+         background: linear-gradient(#00bfff,navy);
+    }
+    @media (max-width: 720px){
+        .login-box{
+                     width: 90%;
+                     border : 10px ridge #00bfff;
+        }
+    }
+
+
+    .navbar-default{
+      background:#996666;
+      border-color: transparent;
+    }
+
+    #header1{
+          padding-top:90px ;
+          font-size:80px;
+          color:white;
+          position: absolute important!;
+      }
+
+      #headerlogin{
+            padding-top:10px ;
+            font-size:50px;
+            color:white;
+            position: absolute important!;
+        }
+        #headersignup{
+              padding-top:10px ;
+              font-size:50px;
+              color:white;
+              position: absolute important!;
+          }
+
+#para1{
+  color:white;
+  padding:20px 70px 50px 70px;
+  position: absolute important!;
+}
+    .fa-google-plus {
+    background: #dd4b39;
+    color: white;
+    font-size: 30px;
+    padding: 20px 20px 20px 25px;
+    }
+    .fa-facebook {
+    background: #3B5998;
+    font-size:30px;
+    padding: 20px 25px 20px 30px;
+    color: white;
+
+    }
+
+    .navbar-brand{
+    font-family: 'Yesteryear', cursive;
+    padding-bottom: 5px;
+    font-size : 35px;
+    }
+
+  /* background */
+    #home1{
+      background-image: url("../assets/7.jpg");
+      background-color: #cccccc;
+       background-repeat: no-repeat;
+       background-position: absolute;
+       background-image: 200%;
+       background-size: cover;
+       background-attachment: fixed;
+  }
+  #signup1{
+    background-image: url("../assets/4.jpg");
+    background-color: #cccccc;
+     background-repeat: no-repeat;
+     background-position: absolute;
+     background-image: 100%;
+     background-size: cover;
+     background-attachment: fixed;
+}
+#login1{
+  background-image: url("../assets/login.jpg");
+  background-color: #cccccc;
+   background-repeat: no-repeat;
+   background-position: absolute ;
+   background-image: 100%;
+   background-size: cover;
+   background-attachment: fixed;
+
+}

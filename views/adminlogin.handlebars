@@ -1,0 +1,228 @@
+<!Doctype html>
+<html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+     <title>Login Page</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+     <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+
+     <style type="text/css">
+       *{
+          margin: 0;
+          padding: 0;
+          font-family: Ariel, "Helvetica neue", Helavatica, sans-serif;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+       }
+       body{
+             background: url('50c.jpg');
+             -webkit-background-size:cover;
+             background-size: cover;
+             background-repeat: no-repeat;
+
+       }
+       /*Navbar*/
+
+.navbar{
+	min-height: 50px !important;
+	margin-bottom: 0;
+    border-radius: 0;
+
+}
+.navbar-nav > li > a, .navbar-brand{
+	padding-top: 6px !important;
+	padding-bottom: 0 !important;
+	height:39px;
+
+}
+.navbar-default {
+  background-color: #0099cc;
+  border-color: #ff4444;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #263238;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #263238;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #263238;
+  background-color: #ff4444;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #263238;
+  background-color: #ff4444;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ff4444;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ff4444;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #263238;
+}
+.navbar-brand{
+  font-family: 'Yesteryear', cursive;
+  font-size: 27px;
+}
+       .login-box{
+           width: 500px;
+           background-color: rgba(10,10,10,0.6);
+           margin: 100px auto;
+           border-radius: 10px;
+
+           box-shadow: 0 0 20px 5px #000;
+       }
+       .info{
+              width: 500px;
+              padding-top: 10px;
+              font-size: 30px;
+              color: #fff;
+              text-align: center;
+              text-shadow: 1px 1px 1px #000;
+
+             }
+             .form-box{
+              padding: 25px;
+             }
+           .inp{
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 3px;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            border-bottom: 2px solid #000;
+            color: #dc143c;
+           }
+           .inp:focus{
+                       outline: none;
+                       border-bottom: 2px solid #dc143c;
+                       color: #dc143c;
+           }
+           .sub-btn{
+                padding: 12px;
+                width: 100%;
+                border-radius: 5px;
+                background: linear-gradient(#00bfff,navy);
+                border: 0;
+                box-sizing: border-box;
+                color: #fff;
+                cursor: pointer;
+                font-size: 20px;
+                border-bottom: 2px solid #000;
+                text-shadow: 1px 1px 1px #000;
+
+}
+           .sub-btn:hover{
+                 background: linear-gradient(#dc143c,#8b0000);
+           }
+           .sub-btn:focus{
+                 outline: none;
+           }
+
+           .rem{
+            margin-bottom: 10px;
+            margin-top: 10px;
+            width: 20px;
+            height: 20px;
+           }
+           span{
+                margin-top: 12px;
+                margin-left: 10px;
+                position: absolute;
+                text-shadow: 1px 1px 1px #000;
+                color:#fff;
+           }
+           .f-pass{
+                 float: right;
+                 margin-top: 12px;
+                 color: #fff;
+                 text-shadow: 1px 1px 1px #000;
+           }
+           .account{
+                  margin-top: 10px;
+                  text-align: center;
+                  color: #fff;
+                  font-size: 25px;
+                  text-shadow: 0 2px 1px #000
+           }
+           .reg{
+                 display: block;
+                 width: 100%;
+                 padding: 12px;
+                 text-align: center;
+                 text-decoration: none;
+                 background: linear-gradient(#dc143c,#8b0000);
+                 color: #fff;
+                 border-radius: 5px;
+                 border-bottom: 2px solid #000;
+                 font-size: 20px;
+                 text-shadow: 1px 1px 1px #000;
+
+           }
+           .reg:hover{
+                background: linear-gradient(#00bfff,navy);
+           }
+          #footer{
+	background: #333333;
+	color: #ffffff;
+	text-align: center;
+	padding: 30px;
+	margin-top:30px;
+}
+     </style>
+   </head>
+   <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="home"> FinalPrep <span class="glyphicon glyphicon-king" aria-hidden="true"></a>
+        </div>
+      </div>
+    </nav>
+       <div class="login-box">
+         <div class= "info"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Admin Login</div>
+         <form action="#" method="post" class="form-box">
+            <input type="text" name="Username" class="inp" placeholder="Username" required><br>
+            <input type="password" name="Password" class="inp" placeholder="Password" required><br>
+            <input type="checkbox" name="Remember" class="rem"><span> Remember Me</span>
+            <input type="submit" name="submit" class="sub-btn" value="Login"><br>
+            </div>
+        </div>
+        </form>
+        <footer id="footer">
+              <p>Copyright FINALPREP &copy; 2017</p>
+          </footer>
+   </body>
+</html>

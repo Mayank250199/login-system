@@ -1,0 +1,141 @@
+<!Doctype html>
+<html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+     <title>SignUp</title>
+     <meta charset="utf-8">
+     <meta  name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+   <link href="/assets/sty.css" rel='stylesheet' type='text/css'>
+
+   <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+
+
+
+ </head>
+
+         <body >
+
+
+           <nav class="navbar navbar-default  navbar-fixed-top" id="my-navbar" role"navigation">
+           <div class="container">
+           <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+
+             </button>
+
+             <a class="navbar-brand"  id="name" style="color:white"href="home">FinalPrep<span class="glyphicon glyphicon-king" aria-hidden="true"></a>
+           </div>
+
+           <div class="collapse navbar-collapse  " id="navbar-collapse">
+             <ul class="nav navbar-nav  navbar-right ">
+               <li><a href="home" style="color:white">Home</a></li>
+               <li><a href="" style="color:white">Notes</a></li>
+               <li><a href="" style="color:white">About Us</a></li>
+               <li><a href="" style="color:white">Contact Us</a></li>
+                   <li><a href="signup" style="color:white"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                   <li><a href="login" style="color:white"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                 </ul>
+
+
+
+       </div>
+       </div>
+       </nav>
+
+
+
+
+
+      <div  id="signup1">
+
+        <br>
+        <br><br>
+        <br>
+
+        {{#if errors}}
+              {{#each errors}}
+                <div class="alert alert-danger">{{msg}}</div>
+              {{/each}}
+        {{/if}}
+
+
+       <div class="login-box">
+         <h1 id="headersignup" class="text-center">SignUp</h1>
+         <form action="/signup" method="post" class="form-box">
+            <input type="text" name="FirstName" class="inp" placeholder="First Name" required>
+            <input type="text"  name="LastName" class="inp" placeholder="Last Name" required>
+              <input type="text" name="Username" class="inp" placeholder="Email" required>
+              <br>
+            <input type="password" name="Password" class="inp" placeholder="Password" required>
+            <br>
+            <input type="password" name="ComfirmPassword" class="inp" placeholder="Confirm Password" required><br>
+            <div class="inp" >
+          <select id="Gender" name="Gender" autocomplete="sex">
+         <option value="">I am...</option>
+         <option value="FEMALE" >
+         Female</option>
+         <option value="MALE" >
+         Male</option>
+          </select>
+
+         </div>
+            <input type="submit" name="submit" class="sub-btn" value="Create Account Now!!"><br><br>
+
+            <div class="btn-group">
+
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+
+      </div>
+
+      <section>
+      <center>  <a href="home" style="align:center">
+      Home </a>          |
+        <a href="" >About&nbsp;&nbsp; </a>
+        <a href="" > Advertising&nbsp;&nbsp; </a>
+        <a href="" >FAQ&nbsp;&nbsp;</a>    |
+        <a href="" >Login&nbsp;&nbsp;</a>
+        <a href="" >Sign up&nbsp;&nbsp;</a> </center>
+<br>
+      <center>   <small>  Follow Us</small></center>
+
+      <center > <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-google-plus"></a></center>
+        <center><p>Copyright Finalprep © 2017</p></center>
+
+  </section>
+
+              <script
+                src="https://code.jquery.com/jquery-2.2.4.js"
+                integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+                crossorigin="anonymous"></script>
+
+
+              <!-- Latest compiled and minified JavaScript -->
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+              integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+              crossorigin="anonymous"></script>
+
+   </body>
+</html>
