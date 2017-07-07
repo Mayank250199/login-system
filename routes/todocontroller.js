@@ -11,7 +11,7 @@ var web = express();
 var User = require('../models/user');
 
 //Connect to the database
-mongoose.connect('mongodb://first:first@ds143201.mlab.com:43201/user');
+mongoose.connect('mongodb://<db:username>:<db:password>@ds143201.mlab.com:43201/user');
 var db = mongoose.connection;
 
 // Input data in database
